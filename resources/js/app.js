@@ -1,5 +1,6 @@
 import { createApp, h } from 'vue'
-import { createInertiaApp } from '@inertiajs/vue3'
+import { createInertiaApp, Link } from '@inertiajs/vue3'
+import Layout from './Shared/Layout.vue'
 
 createInertiaApp({
   resolve: name => {
@@ -12,5 +13,7 @@ createInertiaApp({
       .mount(el)
   },
 })
+
+
 
 

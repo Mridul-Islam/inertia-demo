@@ -1,10 +1,10 @@
 <template>
 
-    <Link class="text-blue-500 hover:underline" :class="{ 'font-bold underlined' : active }">
+    <Link class="text-black-500 hover:underline" :class="{ 'font-bold underlined' : active }">
         <slot />
     </Link>
 
-
+ 
 
 </template>
 

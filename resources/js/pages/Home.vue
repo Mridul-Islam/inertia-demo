@@ -1,14 +1,14 @@
 <template>
-    <h1 class="text-4xl font-bold">Home</h1>
 
-    <Nav></Nav>
+    <h1 class="text-3xl">Home</h1>
+
 </template>
 
 
 <script>
-    import Nav from '../Shared/nav.vue'
-    export default {
-        props: {},
-        components:{Nav}
-    };
+    import Layout from '../Shared/Layout.vue'
+
+    export default{
+        layout: Layout
+    }
 </script>
