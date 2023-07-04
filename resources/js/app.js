@@ -12,6 +12,7 @@ createInertiaApp({
       .use(plugin)
       .mount(el)
   },
+  title: title => "My App - " + title
 })
 
 
